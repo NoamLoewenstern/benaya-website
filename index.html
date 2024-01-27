@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benaya Website</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function clickedButton() {
+        const elem = document.querySelector('#input_name');
+        alert(`you clicked ${elem.value}`);
+      }
+    </script>
+    <!-- website showing the text in nice style: "Benaya Website" -->
+    <h1>Benaya Website</h1>
+    <!-- <form>
+      <input id="input_name" type="text" hint="enter name here" />
+      <button type="submit" onclick="clickedButton()">Register</button>
+    </form> -->
+  </body>
+</html>
